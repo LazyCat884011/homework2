@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Random rand = new Random();
-            Console.WriteLine(rand.Next(10, 50));
+            Console.WriteLine(rand.Next(1, 43)+" "+ rand.Next(1, 43)+" "+ rand.Next(1, 43)+" "+ rand.Next(1, 43)+" "+ rand.Next(1, 43)+" "+ rand.Next(1, 43));
             Console.ReadLine(); 
         }
     }
